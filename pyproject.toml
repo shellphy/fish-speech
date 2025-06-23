@@ -46,7 +46,8 @@ dependencies = [
     "descript-audio-codec",
     "descript-audiotools",
     "torch>=2.5.1",
-    "torchaudio"
+    "torchaudio",
+    "triton-windows<3.4"
 ]
 
 [tool.uv.sources]
